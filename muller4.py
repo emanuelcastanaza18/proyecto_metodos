@@ -7,7 +7,7 @@ def muller(f, x0, x1, x2, max_iter):
     print()
 
     tol = 1e-6  # Tolerancia
-    iter_count = 0
+    iter_count = 0 #Número de interacciones
 
     while iter_count < max_iter:
         iter_count += 1
