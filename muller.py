@@ -12,8 +12,6 @@ def muller(f, x0, x1, x2, epsilon, max_iter):
     while iter_count < max_iter:
         iter_count += 1
 
-        # Resto del código...
-
         # Dentro del bucle while
         print("Iteración ", iter_count)
         print("x0 =", x0, ", x1 =", x1, ", x2 =", x2)
